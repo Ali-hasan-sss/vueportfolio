@@ -6,12 +6,16 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "start": "node server/server.js",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.14",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"

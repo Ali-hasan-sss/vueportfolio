@@ -3,6 +3,8 @@ import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/aboutView.vue";
 import SkillsView from "../views/skillsView.vue";
 import ServicesView from "../views/services.vue";
+import portoFllio from "../views/mywork.vue";
+import ContactView from "../views/contact.vue";
 const routes = [
   {
     path: "/",
@@ -23,6 +25,16 @@ const routes = [
     path: "/services",
     name: "services",
     component: ServicesView,
+  },
+  {
+    path: "/portfollio",
+    name: "portfollio",
+    component: portoFllio,
+  },
+  {
+    path: "/Contact",
+    name: "Contact",
+    component: ContactView,
   },
 ];
 
